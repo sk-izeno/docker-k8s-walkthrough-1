@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: &service-name dockerk8swalkthrough
+  name: &service-name dockerk8swalkthroughtest
   labels: &labels
     app: *service-name
 spec:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: *service-name
-        image: wsk2526/dockerk8swalkthrough:v1
+        image: wsk2526/dockerk8swalkthroughtest:latest
         command: ["./binary"]
           
