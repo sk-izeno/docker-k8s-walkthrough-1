@@ -1,6 +1,6 @@
 #1st build
 FROM golang:1.13
-WORKDIR /go/src/github.com/emailtovamos/docker-k8s-walkthrough
+WORKDIR /go/src/github.com/sk-izeno/docker-k8s-walkthrough
 
 COPY cli ./cli
 
